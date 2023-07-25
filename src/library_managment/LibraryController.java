@@ -80,7 +80,7 @@ public class LibraryController {
 		int i = 1;
 		for (Book book : list) {
 			System.out.println(i + " Name: " + book.getName() + " Book price: " + book.getCost());
-			i++;
+			i++; 
 		}
 		System.out.println("Enter the Id of the book to change the name");
 		int choice = scanner.nextInt();
